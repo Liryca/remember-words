@@ -76,7 +76,7 @@ const Modal: React.FC<PropsType> = ({ words, index, show, closeModal, setWords }
             // }
         })
 
-        // setTimeout(() => setMessage(''), 1500)
+        setTimeout(() => setMessage(''), 1500)
     }
 
 
