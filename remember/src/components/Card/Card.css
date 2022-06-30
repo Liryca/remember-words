@@ -1,0 +1,98 @@
+.scene {
+  perspective: 600px;
+  height: 300px;
+  width: 500px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.card img {
+  margin: 0 5px;
+  height: 1.125rem;
+  width: 1.125rem;
+}
+
+.card p {
+  font-size: 30px;
+
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card__face--front,
+.card__face--back {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #10132c;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+}
+
+.mark-word {
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-true,
+.status-false {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-speaker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 44px;
+  font-family: 'Roboto', sans-serif;
+  color: #10132c;
+  font-weight: 600;
+}
+
+.card-control {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 479px) {
+  .scene {
+    min-height: 410px;
+    min-width: 288px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}

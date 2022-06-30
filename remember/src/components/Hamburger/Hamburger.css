@@ -1,0 +1,11 @@
+.hamburger {
+  padding-left: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger img {
+  transition: transform 600ms ease 0s;
+  margin-left: 15px;
+}

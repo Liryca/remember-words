@@ -1,0 +1,80 @@
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:60px;
+}
+
+.cards-images img{
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.cards-images{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.cards-lebel{
+    display: flex;
+    margin: 20px;
+}
+.cards p{
+    margin: 0;
+}
+.cards .cards-amount{
+    margin-top: 10px;
+    margin: 20px;
+}
+
+
+
+.cards-message{
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    cursor: pointer;
+    border: 2px solid #10132c;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.wrapper-cards-message{
+    text-align: center;
+}
+
+
+ @media screen and (max-width: 479px){
+    .scene  {
+        min-height: 410px;
+        min-width: 288px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+ }
+
+/*
+@media screen and (max-width: 767px)
+.customer-quote-card-34 {
+    min-height: 410px;
+    min-width: 288px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 40px 16px;
+}
+@media screen and (max-width: 991px)
+.customer-quote-card-34 {
+    min-width: auto;
+    margin-right: 0;
+    margin-left: 0;
+} */

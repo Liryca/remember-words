@@ -1,0 +1,122 @@
+[
+    {
+        "englishVersion": "yellow",
+        "rusVersion": "желтый",
+        "example": "",
+        "mark": true,
+        "date": 1624310953000,
+        "id": 1655646231195
+    },
+    {
+        "englishVersion": "to break",
+        "rusVersion": " расстаться",
+        "example": "",
+        "mark": true,
+        "date": 1642800553000,
+        "id": 1655659471618
+    },
+    {
+        "englishVersion": "black",
+        "rusVersion": "черный",
+        "example": "Black cup",
+        "mark": true,
+        "date": 1655854231067,
+        "id": 1655669256325
+    },
+    {
+        "englishVersion": "the thing is",
+        "rusVersion": "дело в",
+        "example": "",
+        "mark": true,
+        "date": 1655854303259,
+        "id": 1655659542293
+    },
+    {
+        "englishVersion": "hello",
+        "rusVersion": "здравствуйте",
+        "example": "",
+        "mark": true,
+        "date": 1655854327843,
+        "id": 1655669085753
+    },
+    {
+        "englishVersion": "by all means",
+        "rusVersion": "любыми средствами ",
+        "example": "",
+        "mark": true,
+        "date": 1655854478403,
+        "id": 1655659495668
+    },
+    {
+        "englishVersion": "trouble",
+        "rusVersion": "беда",
+        "example": "",
+        "mark": true,
+        "date": 1655903140120,
+        "id": 1655903140120
+    },
+    {
+        "englishVersion": "trouble",
+        "rusVersion": "беда",
+        "example": "",
+        "mark": true,
+        "date": 1655903146581,
+        "id": 1655903146581
+    },
+    {
+        "englishVersion": "inbuilt",
+        "rusVersion": "встроенный",
+        "example": "",
+        "mark": false,
+        "date": 1656227593654,
+        "id": 1656227593654
+    },
+    {
+        "englishVersion": "curative",
+        "rusVersion": "лечебный",
+        "example": "",
+        "mark": false,
+        "date": 1656227626992,
+        "id": 1656227626992
+    },
+    {
+        "englishVersion": "damage",
+        "rusVersion": "повреждение, ущерб",
+        "example": "",
+        "mark": false,
+        "date": 1656227668481,
+        "id": 1656227668481
+    },
+    {
+        "englishVersion": "black",
+        "rusVersion": "черный",
+        "example": "",
+        "mark": false,
+        "date": 1656227748127,
+        "id": 1656227748127
+    },
+    {
+        "englishVersion": "hello",
+        "rusVersion": "здравствуйте",
+        "example": "",
+        "mark": false,
+        "date": 1656227909727,
+        "id": 1656227909727
+    },
+    {
+        "englishVersion": "planed",
+        "rusVersion": "строганный",
+        "example": "",
+        "mark": true,
+        "date": 1656425409926,
+        "id": 1656425409926
+    },
+    {
+        "englishVersion": "note",
+        "rusVersion": "блокнот",
+        "example": "",
+        "mark": true,
+        "date": 1656427003868,
+        "id": 1656427003868
+    }
+]
