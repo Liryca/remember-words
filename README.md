@@ -1,5 +1,5 @@
-It's my small project for learning english words.    
-For this I used React and TypeScript.    
+It's project for learning english words developed by me with the aim of studying technologies such as React.js, TypeScript, Redux, React-router
+
 Node is used as a server. Similarly, all data is stored in Node in JSON.    
 In the near future the data will be stored in the database.  
 
