@@ -31,6 +31,9 @@ const Card: React.FC<PropsType> = ({setWords, words, index, setIndex }) => {
         setShow(true);
     }
 
+
+    console.log(show)
+
     const handleModalClose = (e: React.MouseEvent) => {
         const value = (e.target as HTMLInputElement).className;
         if (value === 'img-modal-close') {
