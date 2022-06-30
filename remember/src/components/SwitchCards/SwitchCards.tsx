@@ -6,9 +6,9 @@ import { Dictionary, Word } from '../../types/dictionaryTypes';
 import { useLocation } from 'react-router-dom';
 
 
-export const lastMonth = new Date(new Date().setMonth(new Date().getMonth() - 1)).getTime();
-export const lastYear = new Date(new Date().setFullYear(new Date().getFullYear() - 1)).getTime();
-export const lastWeek = Date.now() - (6 * 86400000);
+ const lastMonth = new Date(new Date().setMonth(new Date().getMonth() - 1)).getTime();
+ const lastYear = new Date(new Date().setFullYear(new Date().getFullYear() - 1)).getTime();
+ const lastWeek = Date.now() - (6 * 86400000);
 
 interface PropsType {
     index: number;
@@ -28,6 +28,7 @@ const SwitchCards: React.FC<PropsType> = ({ index, setIndex, words, setWords, se
 
 
     function goForward() {
+
         if (index === words.length - 1) {
             setIndex(0);
             getWordsFromServer().then((w) => {
@@ -45,6 +46,7 @@ const SwitchCards: React.FC<PropsType> = ({ index, setIndex, words, setWords, se
                 return prev + 1
             })
         }
+
     }
 
     function goBackward() {
