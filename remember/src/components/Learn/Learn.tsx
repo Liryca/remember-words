@@ -14,7 +14,7 @@ const Learn: React.FC = () => {
 
     useEffect(() => {
 
-        getWordsFromServer().then(w => {
+        getWordsFromServer().then((w:Dictionary) => {
             setWords(w.filter((item: Word) => item.mark === false))
             setLoaded(!loaded)
         })

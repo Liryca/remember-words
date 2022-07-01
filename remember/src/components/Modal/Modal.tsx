@@ -8,15 +8,13 @@ import { getTranslatedWord, sendWordsToServerModifiedWord} from '../../api/api';
 
 interface PropsType {
     words: Dictionary;
+    setWords: (x: any) => void
     index: number
     show: boolean;
     closeModal: (x: React.MouseEvent) => void
-    setWords: (x: any) => void
-
-
 }
 
-const Modal: React.FC<PropsType> = ({ words, index, show, closeModal, setWords }) => {
+const Modal: React.FC<PropsType> = ({ words,  setWords, index, show, closeModal}) => {
 
     const [message, setMessage] = useState('');
 
@@ -70,10 +68,6 @@ const Modal: React.FC<PropsType> = ({ words, index, show, closeModal, setWords }
             if (response.status === 201) {
                 setMessage('Word changed successfully')
             }
-            //  else {
-            //     setMessage('Dictinary have this word')
-            //     console.log(words)
-            // }
         })
 
         setTimeout(() => setMessage(''), 1500)
