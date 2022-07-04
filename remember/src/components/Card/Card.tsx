@@ -100,7 +100,7 @@ const Card: React.FC<PropsType> = ({ setWords, words, index, setIndex }) => {
             </div>
             
             <Modal words={words} setWords={setWords} index={index} show={showChangeModal} closeModal={handleModalClose}  />
-            <DeleteModal words={words}  setWords={setWords}  index={index}  setIndex={setIndex} show={showDeletModal}  setShow={setShowDeleteModal} closeModal={handleDeleteModalClose} />
+            <DeleteModal words={words} index={index} show={showDeletModal} closeModal={handleDeleteModalClose} setWords={setWords} setIndex={setIndex} setShow={setShowDeleteModal} />
         </div>
     )
 };
