@@ -1,5 +1,5 @@
 import React from 'react';
-import { Word,Dictionary } from '../../types/dictionaryTypes';
+import { Word} from '../../types/dictionaryTypes';
 import './Form.css';
 
 

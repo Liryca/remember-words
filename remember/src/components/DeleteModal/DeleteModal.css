@@ -1,0 +1,52 @@
+.delete-modal {
+    display: flex;
+    color: #10132c;
+  }
+  
+  .delete-modal-background {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .delete-modal-card{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .delete-modal-button {
+    width: 100%;
+    height: 48px;
+    font-weight: 600;
+    transition: all 0.12s cubic-bezier(0.47, 0, 0.745, 0.715);
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    border: 2px solid #e04f4f;
+    border-radius: 3px;
+    transition: 170ms;
+    font-family: Inter, sans-serif;
+    color: #e04f4f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+  
+
+  .delete-modal-button:hover {
+    background-color: #e04f4f;
+    color: #fff;
+  }
