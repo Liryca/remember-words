@@ -22,7 +22,14 @@ const Learn: React.FC = () => {
 
     }, [])
 
+    if (loaded === false) {
+        return  <div></div>
+     }
+   
+
     return (
+
+
         <div className='cards'>
             {
                 words.length ?

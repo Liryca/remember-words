@@ -14,8 +14,6 @@ const Menu:React.FC = () => {
             <div className='wrapper-menu'>
                 <div className={open ? 'nav-bar-hidden' : 'nav-bar'}>
                     {open && <Hamburger open={open} setOpen={setOpen} />}
-
-
                     <div className='menu'>
                         <ul>
                             <li> <Link onClick={() => close()} to={'/'}>Add Word</Link> </li>

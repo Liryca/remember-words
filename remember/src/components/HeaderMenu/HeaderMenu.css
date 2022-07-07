@@ -54,7 +54,7 @@
   left: auto;
   transform: translateX(-100%);
   box-shadow: 4px 0 84px 20px rgb(77 90 203 / 17%);
-  height: 24374.4px;
+  height: 100vh;
   flex-wrap: nowrap;
   margin-left: -100px;
 }
@@ -68,10 +68,9 @@
   padding: 0;
   background-color: #fff;
   box-shadow: 4px 0 84px 20px rgb(77 90 203 / 17%);
-  height: 24374.4px;
+  height: 100vh;
   width: 416px;
   transition: transform 600ms ease 0s;
   transform: translateX(0);
-  height: 24374.4px;
   flex-wrap: nowrap;
 }
